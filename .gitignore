@@ -1,0 +1,14 @@
+obj
+bin
+_ReSharper.*
+*.csproj.user
+*.resharper.user
+*.ReSharper.user
+*.suo
+*.cache
+~$*
+.svn
+*.vshost*
+nunit-result.xml
+lib/NHProf/log.txt
+*.orig
