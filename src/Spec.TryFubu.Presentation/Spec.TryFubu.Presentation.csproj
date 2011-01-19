@@ -8,8 +8,8 @@
     <ProjectGuid>{EFF03123-39E2-4467-8F24-68C87D7855E9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TryFubu.Presntation</RootNamespace>
-    <AssemblyName>Spec.TryFubu.Presntation</AssemblyName>
+    <RootNamespace>TryFubu.Presentation</RootNamespace>
+    <AssemblyName>Spec.TryFubu.Presentation</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
