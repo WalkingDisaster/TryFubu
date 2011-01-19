@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "specifications", "specifications", "{0FEB5B7C-66C6-46C8-A564-9791DF781286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{C1494743-8CB5-45B0-8187-91C430192DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryFubu.Presentation", "TryFubu.Presentation\TryFubu.Presentation.csproj", "{A8EFA75F-F373-417C-8025-6774F8CD984E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spec.TryFubu.Presntation", "Spec.TryFubu.Presntation\Spec.TryFubu.Presntation.csproj", "{EFF03123-39E2-4467-8F24-68C87D7855E9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8EFA75F-F373-417C-8025-6774F8CD984E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EFA75F-F373-417C-8025-6774F8CD984E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EFA75F-F373-417C-8025-6774F8CD984E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EFA75F-F373-417C-8025-6774F8CD984E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF03123-39E2-4467-8F24-68C87D7855E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF03123-39E2-4467-8F24-68C87D7855E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF03123-39E2-4467-8F24-68C87D7855E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF03123-39E2-4467-8F24-68C87D7855E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFF03123-39E2-4467-8F24-68C87D7855E9} = {0FEB5B7C-66C6-46C8-A564-9791DF781286}
+		{A8EFA75F-F373-417C-8025-6774F8CD984E} = {C1494743-8CB5-45B0-8187-91C430192DBC}
 	EndGlobalSection
 EndGlobal
