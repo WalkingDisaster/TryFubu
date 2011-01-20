@@ -1,5 +1,5 @@
 using FubuMVC.Core;
-using TryFubu.Presentation.Controllers.Home;
+using TryFubu.Presentation.Controllers.Home.Hello;
 
 namespace TryFubu.Presentation.Configuration
 {
@@ -9,7 +9,7 @@ namespace TryFubu.Presentation.Configuration
         {
             IncludeDiagnostics(true);
 
-            HomeIs<HomeInputModel>();
+            HomeIs<HelloInputModel>();
 
             Actions
                 .IncludeClassesSuffixedWithController();

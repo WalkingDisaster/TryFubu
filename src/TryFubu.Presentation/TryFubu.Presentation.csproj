@@ -64,7 +64,7 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Controllers\Home\Home.aspx" />
+    <Content Include="Controllers\Home\Hello.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Styles\Site.css" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
@@ -82,17 +82,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration\TryFubuConventions.cs" />
-    <Compile Include="Controllers\Home\Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Controllers\Home\Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Controllers\Home\HomeController.cs" />
-    <Compile Include="Controllers\Home\HomeInputModel.cs" />
-    <Compile Include="Controllers\Home\HomeViewModel.cs" />
     <Compile Include="Configuration\TryFubuRegistry.cs" />
+    <Compile Include="Controllers\Home\Hello\HelloInputModel.cs" />
+    <Compile Include="Controllers\Home\Hello\HelloOutputModel.cs" />
+    <Compile Include="Controllers\Home\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

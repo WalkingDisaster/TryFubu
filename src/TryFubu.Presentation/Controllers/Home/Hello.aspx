@@ -1,0 +1,1 @@
+<%@ Page Title="" Language="C#" Inherits="FubuMVC.Core.View.FubuPage" %>
